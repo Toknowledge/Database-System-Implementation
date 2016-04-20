@@ -1,4 +1,44 @@
+==========
+项目内容
+==========
+
 <<Database System Implementation>>是斯坦福大学出版的<<Database Systems: The Complete Book>>中的一部分内容，
 主要讲了数据库系统执行的一些内容。
 
 这里主要针对Database System Implementation做阅读翻译。
+
+=========
+文档开发
+=========
+
+本项目文档编辑工具使用Sphinx。
+
+Sphinx是一种文档编辑工具，它允许开发人员使用rst格式来编写文档，然后根据不同需求输出，来自动生成各种文本文档。 Sphinx是用python编写的，可以将它想象成为一个文档框架，只要按照rst格式来编写，就会输出自动格式的文档，无需编写文档人员手动来编写框架。
+
+Sphinx只能在linux或unix终端来进行操作，并需要安装python2.4以上的版本来支持。
+
+安装：
+
+    $ apt-get install python-sphinx
+
+关于rst文件编写：
+
+    Sphinx使用reStructuredText标记语法来提供文档控制。
+
+    如果您需要获取更多的rst编写技巧，请参考rst使用手册。
+
+生成html文件：
+
+   $ make html
+
+生成pdf文件：
+
+  编译latexpdf由于sphinx对中文的不支持所以需要下载texlive进行操作，在linux下使用下列命令进行下载，
+
+  $ wget http://mirrors.xmu.edu.cn/CTAN/systems/texlive/tlnet/install-tl-unx.tar.gz
+
+  下载完成后，解压包，然后进入文件夹，输入
+
+  $ ./install-tl
+
+  安装完成好后，根据需要的字体，下载到/usr/share/fonts/里面然后通过make latexpdf命令就可以得到pdf文档了。
