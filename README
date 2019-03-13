@@ -35,7 +35,7 @@ Sphinx只能在linux或unix终端来进行操作，并需要安装python2.4以�
 
   编译latexpdf由于sphinx对中文的不支持所以需要下载texlive进行操作，在linux下使用下列命令进行下载，
 
-  $ wget http://mirrors.xmu.edu.cn/CTAN/systems/texlive/tlnet/install-tl-unx.tar.gz
+  $ wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
 
   下载完成后，解压包，然后进入文件夹，输入
 
