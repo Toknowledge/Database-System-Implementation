@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-09T14:58:24.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="zJB3ww39L5mGjhCh8fTb" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-09T15:00:24.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="hMK__qL9uehq87gKdGCX" version="22.1.7" type="github">
   <diagram name="第 1 页" id="K0cQYV054ZISvjhoMnSt">
     <mxGraphModel dx="746" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,12 @@
         </mxCell>
         <mxCell id="hEMaXRz6zdXCIvL_HGgW-2" value="&lt;b&gt;数据库服务端&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hEMaXRz6zdXCIvL_HGgW-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="hEMaXRz6zdXCIvL_HGgW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="650" as="sourcePoint" />
+            <mxPoint x="410" y="450" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
